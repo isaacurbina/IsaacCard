@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A73CC0022D076ABA0043CD08 /* Glory-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A73CC0012D076ABA0043CD08 /* Glory-Regular.ttf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A73CBFD42D0766C20043CD08 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,11 +31,25 @@
 		A73CBFC32D0766C10043CD08 /* IsaacCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsaacCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73CBFD32D0766C20043CD08 /* IsaacCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IsaacCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73CBFDD2D0766C20043CD08 /* IsaacCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IsaacCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73CC0012D076ABA0043CD08 /* Glory-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Glory-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A73CC0042D076C390043CD08 /* Exceptions for "IsaacCard" folder in "IsaacCard" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A73CBFC22D0766C10043CD08 /* IsaacCard */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A73CBFC52D0766C10043CD08 /* IsaacCard */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A73CC0042D076C390043CD08 /* Exceptions for "IsaacCard" folder in "IsaacCard" target */,
+			);
 			path = IsaacCard;
 			sourceTree = "<group>";
 		};
@@ -76,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				A73CBFC52D0766C10043CD08 /* IsaacCard */,
+				A73CC0002D076A7D0043CD08 /* Fonts */,
 				A73CBFD62D0766C20043CD08 /* IsaacCardTests */,
 				A73CBFE02D0766C20043CD08 /* IsaacCardUITests */,
 				A73CBFC42D0766C10043CD08 /* Products */,
@@ -90,6 +109,14 @@
 				A73CBFDD2D0766C20043CD08 /* IsaacCardUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A73CC0002D076A7D0043CD08 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A73CC0012D076ABA0043CD08 /* Glory-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A73CC0022D076ABA0043CD08 /* Glory-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +426,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"IsaacCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IsaacCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -426,6 +455,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"IsaacCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IsaacCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
